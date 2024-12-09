@@ -1,3 +1,4 @@
+# loop inside the function 
 x = 5
 
 def basic_while():
