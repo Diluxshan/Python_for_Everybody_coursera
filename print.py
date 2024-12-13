@@ -4,3 +4,4 @@ print("Hey")
 name = "Dilux"
 print(name)
 print("Done")
+ptint("Hello", name)
