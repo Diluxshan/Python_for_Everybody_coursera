@@ -1,5 +1,17 @@
-a= 10
-b =10
+import numpy as np
 
-print(a+b)
-print(type(a))
+x = np.arange(7,16)
+y = np.arange(1,18,2)
+z = np.column_stack(tup=(x[:: -1], y))
+
+for i, j in z:
+    print(' '*i + "*"*j)
+
+x = np.arange(7,14)
+y = np.arange(5,18,2)
+z = np.column_stack(tup=(x[:: -1], y))
+
+for i,j in z:
+    print(' '*i + "*"*j)
+
+# new line for 20025 comit.
