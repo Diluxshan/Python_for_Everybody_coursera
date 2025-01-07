@@ -14,5 +14,5 @@ z = np.column_stack(tup=(x[:: -1], y))
 for i,j in z:
     print(' '*i + "*"*j)
 
-# new line for 20025 comit.
-# second commit of the year
+# new line for 20025 commit.
+# second commit of the year.
